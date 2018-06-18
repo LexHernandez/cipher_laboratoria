@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="styles/stylescessar.css">
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Roboto" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Caesar Cipher</title>
+
+</head>
+<div class="container">
+  <div class="row">
+
+
+<h1>HARD PARTY!</h1>
+
+<div class="col-md-4 mt-2">
+
+<IMG SRC="images/80sDoggoMensaje.png">  </div>
+
+
+
+<div class="col-md-8 mt-">
+
+    <div class="col-md-8">
+      <label for="messageUser">Aquí va tu mensaje </label>
+        <input type="text" id="plainTextInput" name="message">
+          </div> 
+         
+    <div class="col-md-8 ">
+        <label for="numberByUser">El código (número de tu elección)</label>
+          <input type="number" id="numberInput" name="number">
+            <button onClick="encrypt()">Cifra</button></div> 
+         
+          <div class="col-md-8 mt-4">
+<p>Mensaje secreto<p>
+  <div><input type="text" id="cipher"> </div></div>
+
+    <div class="col-md-8">
+  <label for="messageUserToDecrypt">Pega tu mensaje secreto</label>
+    <input type="text" id="cipherTextInput" name="messageTwo"> 
+    <button onClick="decrypt()">Revela!</button></div>
+
+<div class="col-md-8">
+<p>Tu mensaje oculto es: <p>
+  <div> <input type="text" id="descipher"> </div></div>
+    
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+<body>
+  </html>
